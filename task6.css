@@ -1,0 +1,57 @@
+.image{
+    text-align: center;
+}
+.image img{
+    display: block;
+    margin: 0 auto;
+    height:120px;
+}
+*{
+    box-sizing: border-box;
+}
+.loginpage{
+    padding:20px;
+    background-color: white;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 20px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: 1px solid black;
+    background: white;
+  }
+  .loginbtn {
+    background-color: rgba(78,174,78,255);
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 1;
+  }
+  .cancelbtn{
+    float:left;
+    width:10%;
+    padding:14px 10px;
+    background-color: rgb(237, 39, 55);
+    color:white;
+    border:none;
+  }
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.pass{
+    float:right;
+}
+.bottombtns{
+    background-color: rgb(242,238,233);
+    padding:5px 15px;
+    margin: 2px 0;
+    border:none;
+    cursor:pointer;
+    width:100%;
+}

@@ -1,0 +1,26 @@
+table{
+    border-collapse: collapse; width:60% ;
+}
+td{
+    padding:5px;
+}
+th{
+    text-align: left;
+}
+tr:nth-child(even){
+    background-color: white;
+}
+tr:nth-child(even) td:first-child {
+    border-left: 1px solid rgb(231, 228, 228); /* Add left border to the first cell of even rows */
+}
+
+tr:nth-child(even) td:last-child {
+    border-right: 1px solid rgb(231, 228, 228); /* Add right border to the last cell of even rows */
+}
+tr:nth-child(odd){
+    background-color: rgb(231, 228, 228);   
+}
+th{
+    background-color: rgb(55, 178, 68);
+    color: white;
+}
